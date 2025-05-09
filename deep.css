@@ -401,7 +401,7 @@ section .title::after {
   background: #555555; /* C grey */
 }
 .skills-content .right .cpp::before {
-  width: 60%;
+  width: 70%;
   background: #004482; /* C++ blue */
 }
 .skills-content .right .java::before {
@@ -409,7 +409,7 @@ section .title::after {
   background: #b07219; /* Java brown */
 }
 .skills-content .right .mysql::before {
-  width: 60%;
+  width: 80%;
   background: #00758f; /* MySQL blue */
 }
 .skills-content .right .php::before {
@@ -423,10 +423,12 @@ section .title::after {
 .skills-content .right .wordpress::before {
   width: 50%;
   background: #21759b; /* WordPress blue */
+  color:red;
 }
 .skills-content .right .react::before {
   width: 85%;
   background: #61dafb; /* React light blue */
+  color:blue;
 }
 
 
