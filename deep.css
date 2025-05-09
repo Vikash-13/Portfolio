@@ -366,21 +366,69 @@ section .title::after {
   top: 0;
   background: rgb(24, 110, 167);
 }
+.skills-content .right .line {
+  position: relative;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.skills-content .right .line::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 6px;
+}
+
+/* Skill-specific widths and colors */
 .skills-content .right .html::before {
   width: 90%;
+  background: #e44d26; /* HTML orange */
 }
 .skills-content .right .css::before {
-  width: 60%;
+  width: 80%;
+  background: #264de4; /* CSS blue */
 }
 .skills-content .right .js::before {
-  width: 70%;
+  width: 80%;
+  background: #f0db4f; /* JS yellow */
+}
+.skills-content .right .c::before {
+  width: 80%;
+  background: #555555; /* C grey */
+}
+.skills-content .right .cpp::before {
+  width: 60%;
+  background: #004482; /* C++ blue */
+}
+.skills-content .right .java::before {
+  width: 85%;
+  background: #b07219; /* Java brown */
+}
+.skills-content .right .mysql::before {
+  width: 60%;
+  background: #00758f; /* MySQL blue */
 }
 .skills-content .right .php::before {
   width: 80%;
+  background: #8892be; /* PHP purple */
 }
-.skills-content .right .mysql::before {
-  width: 70%;
+.skills-content .right .laravel::before {
+  width: 60%;
+  background: #ff2d20; /* Laravel red */
 }
+.skills-content .right .wordpress::before {
+  width: 50%;
+  background: #21759b; /* WordPress blue */
+}
+.skills-content .right .react::before {
+  width: 85%;
+  background: #61dafb; /* React light blue */
+}
+
 
 /* teams section styling */
 .teams .title::after {
