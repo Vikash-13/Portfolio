@@ -364,7 +364,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(24, 110, 167);
+/*   background: rgb(24, 110, 167); */
 }
 .skills-content .right .line {
   position: relative;
